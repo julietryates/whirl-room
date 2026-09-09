@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Node (not used yet, but keeps stray installs out)
+node_modules/
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Logs
+*.log
