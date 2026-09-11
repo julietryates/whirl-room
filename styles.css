@@ -1,9 +1,10 @@
 :root {
-  --bg: #f6f3ec;
-  --card: #ffffff;
-  --ink: #2c2c2a;
-  --muted: #78766d;
-  --accent: #d85a30;
+  --bg: #150f1e;
+  --card: #211830;
+  --ink: #f1e9f5;
+  --muted: #a394b3;
+  --accent: #ff7518;
+  --border: #3a2c4d;
 }
 
 * { box-sizing: border-box; }
@@ -45,7 +46,7 @@ p.sub {
   aspect-ratio: 4 / 3;
   background: var(--card);
   border-radius: 20px;
-  border: 1px solid #e7e2d6;
+  border: 1px solid var(--border);
   margin-top: 1.5rem;
   overflow: hidden;
 }
@@ -59,15 +60,15 @@ p.sub {
   width: 4.5rem;
   height: 4.5rem;
   border-radius: 50%;
-  background: #fbf9f4;
-  border: 1px solid #eee7d8;
+  background: #2b2039;
+  border: 1px solid var(--border);
   cursor: pointer;
   user-select: none;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .obj:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(255, 117, 24, 0.25);
 }
 
 .obj:focus-visible {
@@ -123,7 +124,7 @@ p.sub {
   padding: 1.5rem;
   background: var(--card);
   border-radius: 16px;
-  border: 1px solid #e7e2d6;
+  border: 1px solid var(--border);
   text-align: center;
   display: none;
 }
@@ -145,8 +146,8 @@ p.sub {
   margin-top: 1.25rem;
   padding: 0.6rem 1.4rem;
   border-radius: 999px;
-  border: 1px solid #ddd6c4;
-  background: white;
+  border: 1px solid var(--border);
+  background: var(--card);
   color: var(--ink);
   font-size: 0.9rem;
   cursor: pointer;
@@ -158,7 +159,7 @@ p.sub {
 footer {
   margin-top: 2.5rem;
   font-size: 0.75rem;
-  color: #b3ada0;
+  color: #5d4d70;
   text-align: center;
 }
 
